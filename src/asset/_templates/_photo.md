@@ -1,15 +1,13 @@
 ---
 layout: main/post-photos.html
-title: Buttermore
-description: hac habitasse platea dictumst. Nunc hendrerit ultrices lectus, sed facilisis nisi lacinia quis.
-keyword: Habitase, dictumst
+title: 
+description: 
+keyword: 
 cover: 
   - url: /asset/photos/buttermore.jpg
 thumbnail: /asset/photos/buttermore.jpg
 date: 2025-01-09
 tags: 
-  - film simulation
-  - jpeg recipe
   - fujifilm
 ---
 
