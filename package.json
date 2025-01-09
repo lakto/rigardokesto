@@ -1,14 +1,14 @@
 {
-  "name": "twcarty",
+  "name": "rigardokesto",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build:css": "tailwindcss -i src/styles.css -o _site/asset/css/style.css --minify",
     "watch:css": "tailwindcss -i src/styles.css -o _site/asset/css/style.css --watch",
-    "build": "pnpm build:css && eleventy",
-    "serve": "pnpm build:css && eleventy --serve",
-    "watch": "pnpm watch:css & eleventy --serve",
+    "build": "yarn build:css && eleventy",
+    "serve": "yarn build:css && eleventy --serve",
+    "watch": "yarn watch:css & eleventy --serve",
     "mkpost": "node scripts/mkpost.js"
   },
   "keywords": [],

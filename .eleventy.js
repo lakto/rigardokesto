@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("tailwind.config.js");
 
   // Global data for root
-  eleventyConfig.addGlobalData("rootTitle", "Apoxicam");
+  eleventyConfig.addGlobalData("rootTitle", "Milchkannen");
   eleventyConfig.addGlobalData("rootURL", "https://twcarty.netlify.app");
   eleventyConfig.addGlobalData("SUPABASE_URL", process.env.SUPABASE_URL);
   eleventyConfig.addGlobalData("SUPABASE_KEY", process.env.SUPABASE_KEY);
@@ -32,8 +32,10 @@ module.exports = function(eleventyConfig) {
   const collectionConfigs = [
     { name: "posts", glob: "src/blog/**/*.md" },
     { name: "photos", glob: "src/photos/**/*.md" },
+    { name: "code", glob: "src/code/**/*.md" },
     { name: "recentPosts", glob: "src/blog/*.md", limit: 3 },
-    { name: "recentPhotos", glob: "src/photos/*.md", limit: 6 }
+    { name: "recentPhotos", glob: "src/photos/*.md", limit: 6 },
+    { name: "recentCode", glob: "src/code/*.md", limit: 3 }
   ];
 
   // Loop custom collection
@@ -45,7 +47,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Tags collection for blog and photos
-  ["blog", "photos"].forEach(type => {
+  ["blog", "photos", "code"].forEach(type => {
     eleventyConfig.addCollection(`${type}Tags`, getTags(type));
   });
 
@@ -68,7 +70,7 @@ module.exports = function(eleventyConfig) {
   
   /**
    * Get tag from collection
-   * @param {'blog'|'photos'} type - Collection type (blog or photos)
+   * @param {'blog'|'photos'|'code'} type - Collection type (blog or photos)
    * @returns {Array} - Array uniq tags
    */
   function getTags(type) {

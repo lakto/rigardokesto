@@ -1,11 +1,11 @@
 ---
 layout: main/index.html
-title: TWCARTY
+title: Milchkannen
 description: Eleventy starter for photographer/artist
-keyword: photography, camera, blog
-author: John Doe
-cover: /asset/index/cover.webp
-profile: /asset/index/profile.webp
+keyword: photography, camera, blog, code
+author: André Kilchenmann
+cover: /asset/index/cover.jpg
+profile: /asset/index/profile.jpg
 permalink: /index.html
 ---
 

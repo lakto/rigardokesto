@@ -47,14 +47,14 @@ document.getElementById('search-input').addEventListener('input', async function
   if (query.length >= 3) {
     const searchData = await fetchSearchData();
     if (searchData) {
-      const categories = ['blog', 'photos', 'unduhan', 'personil', 'visiMisi', 'profil']; // Categories to search
+      const categories = ['blog', 'photos', 'code', 'profil']; // Categories to search
       const results = searchDataAcrossCategories(searchData, query, categories);
       
       if (results.length > 0) {
         displaySearchResults(results);
         resultsContainer.classList.remove('hidden'); // Show results container when there are results
       } else {
-        resultsContainer.innerHTML = '<p class="text-error text-center">Tidak ditemukan apa-apa</p>';
+        resultsContainer.innerHTML = '<p class="text-error text-center">No search results found</p>';
         resultsContainer.classList.remove('hidden'); // Show the container with no results message
       }
     } else {
