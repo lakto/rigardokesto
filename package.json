@@ -10,7 +10,7 @@
     "serve": "yarn build:css && eleventy --serve",
     "watch": "yarn watch:css & eleventy --serve",
     "mkpost": "node scripts/mkpost.js",
-    "build-prod": "yarn build:css && NODE_ENV=production ELEVENTY_PRODUCTION=true URL=https://design.lakto.org/rigardokesto/ eleventy"
+    "build-prod": "yarn build:css && NODE_ENV=production ELEVENTY_PRODUCTION=true URL=https://blog.milchkannen.ch/ eleventy"
   },
   "keywords": [],
   "author": "",
