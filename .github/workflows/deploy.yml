@@ -1,6 +1,6 @@
 name: Build Eleventy
 env:
-  node-version: 18.20.5
+  node-version: 20
 
 on:
   push:
