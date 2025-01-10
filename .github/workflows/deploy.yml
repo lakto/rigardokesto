@@ -1,6 +1,6 @@
 name: Build Eleventy
 env:
-  node-version: 20
+  nv: 20.17.0
 
 on:
   push:
@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Node.js ${{ env.NV }}
+      - name: Set up Node.js ${{ env.nv }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NV }}
+          node-version: ${{ env.nv }}
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
