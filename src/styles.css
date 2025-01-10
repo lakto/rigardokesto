@@ -31,6 +31,9 @@ body {
   .text-hidden {
     @apply hidden
   }
+  .the-container {
+    @apply absolute top-0 sm:container m-0 p-0 sm:mx-auto sm:p-4 md:p-10;
+  }
   .the-card {
     @apply card rounded-none sm:rounded-xl bg-base-100 shadow-xl w-full md:max-w-3xl 2xl:max-w-4xl mx-auto min-h-screen sm:min-h-min flex flex-col sm:flex-none;
   }
