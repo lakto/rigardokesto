@@ -19,10 +19,10 @@ module.exports = function(eleventyConfig) {
 
   // Global data for root
   eleventyConfig.addGlobalData("rootTitle", "Milchkannen");
-  eleventyConfig.addGlobalData("rootURL", "https://twcarty.netlify.app");
+  eleventyConfig.addGlobalData("rootURL", "https://blog.milchkannen.ch");
   eleventyConfig.addGlobalData("SUPABASE_URL", process.env.SUPABASE_URL);
   eleventyConfig.addGlobalData("SUPABASE_KEY", process.env.SUPABASE_KEY);
-  eleventyConfig.addGlobalData("quotes", "<i>No one comes to your website to be entertained. They have questions they think you can answer. Content answers questions.</i><br /><b>― Jay Baer</b>")
+  eleventyConfig.addGlobalData("quotes", "<i>Web developer, digital archivist, design enthusiast, furniture builder, seamstress, and photographer. Embracing creativity in every aspect of life.</i><br /><b>― This is Kilchenmann aka Milchkannen</b>")
 
   // Bypass dir
   const passthroughCopies = ["src/robots.txt", "src/asset/", "src/CNAME"];
@@ -47,7 +47,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Tags collection for blog and photos
-  ["blog", "photos", "code"].forEach(type => {
+  ["blog", "photos"].forEach(type => {
     eleventyConfig.addCollection(`${type}Tags`, getTags(type));
   });
 
@@ -70,7 +70,7 @@ module.exports = function(eleventyConfig) {
   
   /**
    * Get tag from collection
-   * @param {'blog'|'photos'|'code'} type - Collection type (blog or photos)
+   * @param {'blog'|'photos'} type - Collection type (blog or photos)
    * @returns {Array} - Array uniq tags
    */
   function getTags(type) {
