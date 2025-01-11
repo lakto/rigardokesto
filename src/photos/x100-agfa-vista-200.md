@@ -10,7 +10,7 @@ date: 2025-01-11
 tags: 
   - FUJIFILM
   - FinePix X100
-  - 23mm
+ 
 ---
 
 <!-- 
