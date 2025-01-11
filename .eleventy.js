@@ -32,10 +32,10 @@ module.exports = function(eleventyConfig) {
   const collectionConfigs = [
     { name: "posts", glob: "src/blog/**/*.md" },
     { name: "photos", glob: "src/photos/**/*.md" },
-    { name: "code", glob: "src/code/**/*.md" },
+    // { name: "code", glob: "src/code/**/*.md" },
     { name: "recentPosts", glob: "src/blog/*.md", limit: 3 },
     { name: "recentPhotos", glob: "src/photos/*.md", limit: 6 },
-    { name: "recentCode", glob: "src/code/*.md", limit: 3 }
+    // { name: "recentCode", glob: "src/code/*.md", limit: 3 }
   ];
 
   // Loop custom collection

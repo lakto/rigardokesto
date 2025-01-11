@@ -9,10 +9,40 @@ profile: /asset/index/profile.jpg
 permalink: /index.html
 ---
 
-#### Hello World
-I used Eleventy to create this website because I find it the easiest Static Site Generator (SSG) to understand, especially with its support for using `*.html` for layout. I chose DaisyUI as the CSS framework because its simple tutorials matched my level as a beginner. 
+#### Hi there I'm André
 
-#### Eleventy
-Eleventy is a popular Static Site Generator (SSG) tool used by web developers to build websites. It allows developers to create websites from various template languages, including HTML, Markdown, and others. Eleventy is known for its simplicity and flexibility, making it a favorite among developers who prefer a straightforward approach to building static websites.
+Web and applications developer from Switzerland with a passion for digital preservation and creativity. I studied Cultural and Media Studies and Computer Science at the University of Basel, and wrote my PhD thesis in Digital Humanities. Today, I work as an archival computer scientist / digital archivist in Solothurn, where I help to ensure the long-term preservation of digital data.
 
-I apologize for any shortcomings as I am not a coder by background. The source code of this starter is available on [GitHub](https://github.com/sira313/twcarty). Thanks for coming.
+In my spare time, I enjoy building my own furniture, sewing clothes and accessories, and taking photographs. I publish my creative projects here on my [website][website], on [unsplash][unsplash] or on [github][github].
+
+I am passionate about using technology to preserve and share our cultural heritage, and to inspire creativity in others. I am also a strong advocate for open access and open source software.
+
+[website]: https://blog.milchkannen.ch
+[blog]: https://blog.lakto.org
+[twitter]: https://twitter.com/milchkannen
+[instagram]: https://instagram.com/milchkannen
+[github]: https://github.com/kilchenmann
+[gitlab]: https://gitlab.com/kilchenmann
+[linkedin]: https://linkedin.com/in/kilchenmann
+[unsplash]: https://unsplash.com/@kilchenmann
+[pinterest]: https://www.pinterest.ch/milchkannen
+[codepen]: https://codepen.io/kilchenmann
+[thingiverse]: https://www.thingiverse.com/kilchenmann
+
+[angular]: https://angular.io
+[svelte]: https://svelte.dev
+[typescript]: https://www.typescriptlang.org
+[html5]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+[sass]: https://sass-lang.com
+[ghost]: https://ghost.org
+[11ty]: https://www.11ty.dev
+[docker]: https://www.docker.com
+[mkdocs]: https://www.mkdocs.org
+[elm]: https://elm-lang.org
+[figma]: https://www.figma.com 
+[vscode]: https://code.visualstudio.com
+[1writer]: https://1writerapp.com/
+[zettlr]: https://www.zettlr.com
+[latex]: https://www.latex-project.org
+[gnubash]: https://www.gnu.org/software/bash
+[markdown]: https://www.markdownguide.org/
