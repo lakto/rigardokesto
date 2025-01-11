@@ -8,5 +8,7 @@ cover:
 thumbnail: /asset/photos/x100-filmsim-ilford-delta-400.jpeg
 date: 2025-01-11
 tags: 
-  - Fujifilm
+  - FUJIFILM
+  - FinePix X100
+  - 23mm
 ---
