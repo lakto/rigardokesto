@@ -1,6 +1,6 @@
 ---
 layout: main/post-photos.html
-title: X100 AgFa Vista 200
+title: X100 – Agfa Vista 200
 description: x100-agfa-vista-200
 keyword: x100-agfa-vista-200
 cover: 
