@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addGlobalData("rootURL", "https://blog.milchkannen.ch");
   eleventyConfig.addGlobalData("SUPABASE_URL", process.env.SUPABASE_URL);
   eleventyConfig.addGlobalData("SUPABASE_KEY", process.env.SUPABASE_KEY);
-  eleventyConfig.addGlobalData("quotes", "<i>Web developer, digital archivist, design enthusiast, furniture builder, seamstress, and photographer. Embracing creativity in every aspect of life.</i><br /><b>― This is Kilchenmann aka Milchkannen</b>")
+  eleventyConfig.addGlobalData("quotes", "<i>Web developer, digital archivist, design enthusiast, furniture builder, seamstress, and photographer. Embracing creativity in every aspect of life.</i><br />&mdash;<br /><b> This is Kilchenmann aka Milchkannen</b>")
 
   // Bypass dir
   const passthroughCopies = ["src/robots.txt", "src/asset/", "src/CNAME"];

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./src/**/*.{html,njk,md,js}"],
   theme: {
     extend: {
@@ -18,7 +19,11 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
+    base: false,
     themes: [
+      "halloween",
+      "dim",
+      "aqua",
       {
         light: {
           "primary": "#2472c8",
@@ -45,12 +50,12 @@ module.exports = {
       },
       {
         dark: {
-          "primary": "#2472c8",
+          "primary": "#fbbf24",
           "primary-content": "#000b14",
-          "secondary": "#3b8eea",
+          "secondary": "#0d9488",
           "secondary-content": "#000a16",
-          "accent": "#f14c4c",
-          "accent-content": "#000000",
+          "accent": "#713f12",
+          "accent-content": "#ffffff",
           "neutral": "#1a1a1a",
           "neutral-content": "#ccccc9",
           "base-100": "#1f1f1f",
@@ -69,4 +74,5 @@ module.exports = {
       },
     ],
   },
+  darkMode: ['selector', '[data-theme="dark"]']
 }
