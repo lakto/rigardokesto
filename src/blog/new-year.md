@@ -1,7 +1,7 @@
 ---
 layout: main/post-blog.html  
 title: New Year  
-description: Dies wird ein neuer Blog oder Webseite oder ähnliches. Ich habe soeben ein neues Codeschnippsel zum Thema Terminal geschrieben.  
+description: --  
 keywords: Eleventy, Bulma  
 date: 2025-01-09  
 cover: /asset/index/cover.webp
@@ -10,6 +10,6 @@ tags:
  - World  
 ---
 
-## Happy New Year
+## Frohes neues
 
 Dies wird ein neuer Blog oder Webseite oder ähnliches. Ich habe soeben ein neues Codeschnippsel zum Thema Terminal geschrieben.

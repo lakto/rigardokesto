@@ -45,7 +45,8 @@ layout: main/base.html
           <div class="prose max-w-none">
             <h3>{{ title }}</h3>
             <div class="text-sm mt-0 mx-0 mb-6">
-              {{ date | date: "%a, %d %b %Y" }}
+              <!-- {{ date | date: "%a, %d %b %Y" }} -->
+              {{ description }}
             </div>
             {{ content }}
           </div>
